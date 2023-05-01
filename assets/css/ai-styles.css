@@ -1,0 +1,142 @@
+/* Set font family and background color */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #F7F7F7;
+  color: #333;
+}
+
+/* Set container properties */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Set header properties */
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Set navigation properties */
+nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 24px;
+}
+
+nav a:hover {
+  color: #FFC107;
+}
+
+/* Set section properties */
+section {
+  margin-bottom: 60px;
+  width: 100%;
+}
+
+/* Set game properties */
+.game {
+  width: 30%;
+  margin-bottom: 60px;
+  text-align: center;
+  background-color: #FFF;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.game:hover {
+  transform: scale(1.05);
+}
+
+.game img {
+  max-width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.game:hover img {
+  transform: scale(1.1);
+}
+
+.game h3 {
+  margin-top: 20px;
+  font-size: 32px;
+  letter-spacing: 1px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.game p {
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.4;
+  color: #999;
+}
+
+/* Set footer properties */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #333;
+}
+
+/* Add some fun animations */
+@keyframes blink {
+  0% {opacity: 1;}
+  50% {opacity: 0.5;}
+  100% {opacity: 1;}
+}
+
+a:hover {
+  animation: blink 1s infinite;
+}
+
+@keyframes move {
+  0% {transform: translateX(0);}
+  50% {transform: translateX(-10px);}
+  100% {transform: translateX(0);}
+}
+
+section:nth-child(odd) .game:hover {
+  animation: move 0.5s ease-in-out;
+}
+
+/* Set color scheme */
+.game:nth-child(odd) {
+  background-color: #FFC107;
+}
+
+.game:nth-child(odd) h3 {
+  color: #FFF;
+}
+
+.game:nth-child(odd) p {
+  color: #EEE;
+}
+
+.game:nth-child(even) {
+  background-color: #81C784;
+}
+
+.game:nth-child(even) h3 {
+  color: #FFF;
+}
+
+.game:nth-child(even) p {
+  color: #EEE;
+}
