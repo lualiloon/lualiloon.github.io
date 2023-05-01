@@ -16,7 +16,5 @@ ___
 
 Built using [jekyll](https://jekyllrb.com/)
 
-Color pallete created with [Colormind](http://colormind.io/)
-
-Patterns from [Pattern Monster](https://pattern.monster/)
+Colors and styling created in collaboration with [ChatGPT](https://chat.openai.com/)
 
