@@ -13,23 +13,26 @@ body {
 
 /* Set appropriate font sizes for headings */
 h1 {
-    font-size: 48px;
+    /* font-size: 48px; */
     /* font-size: 44px; */
+    font-size: 3em;
     color: #ff5e5b;
     text-shadow: 2px 2px #ffc09f;
     margin-bottom: 24px;
 }
 
 h2 {
-    font-size: 36px;
+    /* font-size: 36px; */
     /* font-size: 30px; */
+    font-size: 2em;
     color: #ffa600;
     margin-bottom: 20px;
 }
 
 h3 {
-    font-size: 24px;
+    /* font-size: 24px; */
     /* font-size: 20px; */
+    font-size: 1.25em;
     color: #5b99ff;
     margin-bottom: 16px;
 }
@@ -92,7 +95,7 @@ nav {
     position: sticky;
     top: 0;
     z-index: 1;
-    padding: 10px 0;
+    padding: 5px 0;
 }
 
 nav ul {
@@ -108,7 +111,7 @@ nav li {
 }
 
 nav a {
-    color: #fff;
+    color: #fff;    
     text-decoration: none;
     font-weight: bold;
     font-size: 20px;
@@ -122,8 +125,34 @@ nav a:hover {
 nav a.current {
     background-color: #ffa600;
     color: #fff;
-    border-bottom: none;
+    /* border-bottom: none; */
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ffa600;
     padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav a.current:hover {
+    background-image: none;
+}
+
+nav a.non-current {
+    background-color: transparent;
+    color: #fff;
+    border-style: solid;
+    border-width: 2px;
+    border-color: transparent;
+    border-radius: 5px;
+}
+
+nav a.non-current:hover {
+    color: #ffa600;
+    background-image: none;
+    /* text-decoration: underline; */
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ffa600;
     border-radius: 5px;
 }
 
