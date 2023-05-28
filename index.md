@@ -17,11 +17,21 @@ Every month, I'll post a new update with a small project I've been working on. T
 
 In addition to my monthly projects, I'll also be digging up my old projects and adding them to [The Crypt](/crypt.html). This is where you can find all my forgotten work -- old code, bad art, unfinished design docs. It's a place to explore my past projects and see how skills and ideas can develope over time.
 
-### Design
-I believe that game design is all about experimentation, iteration, and learning. My hope is that this website can be a place for us to learn and grow together, as we explore the wonderful world of game design.
+### Let's Explore
 
-Thank you for stopping by, and I hope you enjoy your time here!
+Game design is all about experimentation, iteration, and learning. My hope is that this website can be a place for us to learn and grow together, as we explore interactive experiences and ignite imagination.
 
+Thanks for stopping by, I hope you enjoy your time here!
+
+### Posts
+
+<ul>
+{% for post in site.posts %}
+<li>
+<a href="{{ post.url }}">{{ post.title }}</a>
+</li>
+{% endfor %}
+</ul>
 ___
 
 ## About this website
