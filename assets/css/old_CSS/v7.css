@@ -1,0 +1,70 @@
+/* Define a color palette with variables */
+:root {
+  --primary-color: #ff5e5b;
+  --secondary-color: #ffa600;
+  --background-color: #f0eae3;
+  --link-color: #3f3fbf;
+}
+
+/* Use the color palette throughout your CSS */
+body {
+  background-color: var(--background-color);
+}
+
+h1 {
+  color: var(--primary-color);
+  text-shadow: 2px 2px var(--secondary-color);
+}
+
+h2 {
+  color: var(--secondary-color);
+}
+
+h3 {
+  color: var(--primary-color);
+}
+
+a {
+  color: var(--link-color);
+}
+
+a:hover {
+  color: var(--primary-color);
+}
+
+/* Use a modern font */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Simplify your design */
+h1 {
+  margin-bottom: 0;
+}
+
+h2 {
+  margin-bottom: 16px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 10px;
+  
+}
+
+/* Use animations and hover effects */
+a {
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: var(--primary-color);
+}

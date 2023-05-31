@@ -1,0 +1,14 @@
+div#header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: 1px solid #777;
+    background-color: inherit;
+}
+
+
+h1#blog-name {
+    margin: 0em 0.5em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+}

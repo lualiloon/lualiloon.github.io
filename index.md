@@ -7,11 +7,11 @@ title: Home
 
 This is where I experiment with game design ideas and showcase my past projects.
 
-I've been fascinated with game design for years. I love creating worlds, characters, and mechanics that players can immerse themselves in. This website is my way of sharing that passion with you.
+I've been fascinated with game design for years. I love creating worlds, characters, and mechanics that players can immerse themselves in. This website is my way of sharing that passion.
 
 ### Monthly Projects
 
-Every month, I'll post a new update with a small project I've been working on. These projects could be anything from a quick prototype to a mini-game. My goal is to challenge myself to create something new every month, and share the process with you.
+Every month, I'll post a new update with a small project I've been working on. These projects could be anything from a quick prototype to a mini-game. My goal is to challenge myself to continually create new things, and share the process with you.
 
 ### The Crypt
 

@@ -1,0 +1,87 @@
+/* Set font family and size */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+
+/* Set high contrast between text and background */
+body {
+  background-color: #F2F2F2;
+  color: #333333;
+}
+
+/* Set appropriate font sizes for headings */
+h1 {
+  font-size: 36px;
+  color: #FFB6C1;
+}
+
+h2 {
+  font-size: 30px;
+  color: #73C4E4;
+}
+
+h3 {
+  font-size: 24px;
+  color: #FFB347;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    padding-right: 20px;
+}
+
+
+/* Set link colors and underline on hover */
+a {
+  color: #B19CD9;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFB347;
+  text-decoration: underline;
+}
+
+/* Use spacing to make content more readable */
+p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Use lists to break up content into readable chunks */
+ul, ol {
+  margin-bottom: 20px;
+}
+
+/* Use appropriate contrast and size for blockquotes */
+blockquote {
+  color: #666666;
+  background-color: #F2E6F0;
+  border-left: 5px solid #73C4E4;
+  margin: 20px 0;
+  padding: 20px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+/* Use subtle background colors for code snippets */
+code {
+  background-color: #F2F2F2;
+  padding: 2px 5px;
+  border-radius: 3px;
+  color: #333333;
+}
+
+/* Set appropriate line-height and margin for images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  line-height: 1.5;
+}

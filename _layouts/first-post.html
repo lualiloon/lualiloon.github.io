@@ -11,15 +11,18 @@
 	  crossorigin="anonymous">
 
     <link rel="stylesheet" href="/assets/css/styles.css">
-    <!-- <link rel="stylesheet" href="/assets/css/old_CSS/v21.css"> -->
+    <link rel="stylesheet" href="/assets/css/first-post-styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-    {% include navigation.html %}
+    <div id="header">
+      {% include navigation.html %}
+      {% include header.html %}
+    </div>
     <div class="pure-g">
       <div class="page-content pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
-	{% include header.html %}
 	{{ content }}
       </div>
     </div>
+  </body>
 </html>

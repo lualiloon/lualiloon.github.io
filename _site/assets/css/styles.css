@@ -1,43 +1,170 @@
+/* Set font family and size */
 body {
-    background-color: #F9F6F8;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
 }
 
-nav {
-    background-color: #1D3741;
-    padding: 1%;
+/* Set background and text colors for high contrast */
+body {
+    background-color: #f0eae3;
 }
 
-nav>span {
-    padding: 1%;
+/* Set appropriate font sizes for headings */
+h1 {
+    /* font-size: 48px; */
+    /* font-size: 44px; */
+    font-size: 2.75em;
+    color: #ff5e5b;
+    text-shadow: 2px 2px #ffc09f;
+    margin-bottom: 24px;
 }
 
-nav a {
-    margin: 1%;
+h2 {
+    /* font-size: 36px; */
+    /* font-size: 30px; */
+    font-size: 2em;
+    color: #ffa600;
+    margin-bottom: 20px;
+}
+
+h3 {
+    /* font-size: 24px; */
+    /* font-size: 20px; */
+    font-size: 1.25em;
+    color: #5b99ff;
+    margin-bottom: 16px;
+}
+
+/* Set link colors and underline on hover */
+a {
+    color: #3f3fbf;
     text-decoration: none;
 }
 
-.current {
-    background-color: #D5915C;
-}
-.current>a {
-    color: #1D3741;
+a:hover {
+    color: #ff5e5b;
+    text-decoration: underline;
 }
 
-.non-current>a {
-    color: #D5915C;
+/* Use spacing to make content more readable */
+p {
+    margin-bottom: 24px;
 }
 
+/* Use lists to break up content into readable chunks */
+ul,
+ol {
+    margin-bottom: 24px;
+}
 
-header {
-    background-color: #91B9A7;
-    color: #0E191D;
-    margin-top: 10px;
-    padding: 0.25%;
-    font-size: 125%;
+/* Use appropriate contrast and size for blockquotes */
+blockquote {
+    color: #333;
+    background-color: #f8e4d6;
+    border-left: 5px solid #ffa600;
+    margin: 24px 0;
+    padding: 24px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Use subtle background colors for code snippets */
+code {
+    background-color: #f2f2f2;
+    padding: 2px 5px;
+    border-radius: 3px;
+    color: #333;
+}
+
+/* Set appropriate line-height and margin for images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 24px auto;
+    line-height: 1.6;
+    border: 3px solid #ffa600;
+    box-shadow: 3px 3px #ffc09f;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #222;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    padding: 5px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
     text-align: center;
-
-    /*background-image is "Diamonds - 3" from Pattern Monster https://pattern.monster/*/
-    background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='32' height='32' patternTransform='scale(2) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(153, 22%, 65%, 1)'/><path d='M32-10L42 0 32 10 22 0zM0-10L10 0 0 10-10 0zm0 32l10 10L0 42l-10-10zm32 0l10 10-10 10-10-10zM16-10L26 0 16 10 6 0zm0 32l10 10-10 10L6 32zM32 6l10 10-10 10-10-10zM0 6l10 10L0 26l-10-10zm16 0l10 10-10 10L6 16z'  stroke-linecap='square' stroke-width='1' stroke='hsla(153, 16%, 57%, 1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
 }
 
-/* desaturated green #7FA292 */
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;    
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: #ffa600;
+    text-decoration: none;
+}
+
+nav a.current {
+    background-color: #ffa600;
+    color: #fff;
+    /* border-bottom: none; */
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ffa600;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav a.current:hover {
+    background-image: none;
+}
+
+nav a.non-current {
+    background-color: transparent;
+    color: #fff;
+    border-style: solid;
+    border-width: 2px;
+    border-color: transparent;
+    border-radius: 5px;
+}
+
+nav a.non-current:hover {
+    color: #ffa600;
+    background-image: none;
+    /* text-decoration: underline; */
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ffa600;
+    border-radius: 5px;
+}
+
+/* Style the header */
+header {
+    text-align: center;
+    top: -100;
+    /* margin-bottom: 36px; */
+}
+
+.page-content {
+    margin: auto;
+    padding: 0 20px;
+    max-width: 1000px;
+}

@@ -1,13 +1,13 @@
 /* Set font family and background color */
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #F7F7F7;
+  background-color: #FFFFFF;
   color: #333;
 }
 
 /* Set container properties */
 .container {
-  max-width: 1000px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 20px;
   display: flex;
@@ -26,6 +26,10 @@ nav {
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
+}
+
+nav li {
+    display: inline;
 }
 
 nav a {
@@ -50,23 +54,16 @@ section {
   width: 30%;
   margin-bottom: 60px;
   text-align: center;
-  background-color: #FFF;
-  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.game:hover {
-  transform: scale(1.05);
 }
 
 .game img {
   max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
 
-.game:hover img {
+.game img:hover {
   transform: scale(1.1);
 }
 
@@ -74,8 +71,6 @@ section {
   margin-top: 20px;
   font-size: 32px;
   letter-spacing: 1px;
-  color: #333;
-  margin-bottom: 10px;
 }
 
 .game p {
@@ -83,7 +78,6 @@ section {
   font-size: 18px;
   text-align: center;
   line-height: 1.4;
-  color: #999;
 }
 
 /* Set footer properties */
@@ -92,7 +86,6 @@ footer {
   margin-top: 40px;
   font-size: 18px;
   letter-spacing: 1px;
-  color: #333;
 }
 
 /* Add some fun animations */
@@ -114,29 +107,4 @@ a:hover {
 
 section:nth-child(odd) .game:hover {
   animation: move 0.5s ease-in-out;
-}
-
-/* Set color scheme */
-.game:nth-child(odd) {
-  background-color: #FFC107;
-}
-
-.game:nth-child(odd) h3 {
-  color: #FFF;
-}
-
-.game:nth-child(odd) p {
-  color: #EEE;
-}
-
-.game:nth-child(even) {
-  background-color: #81C784;
-}
-
-.game:nth-child(even) h3 {
-  color: #FFF;
-}
-
-.game:nth-child(even) p {
-  color: #EEE;
 }
