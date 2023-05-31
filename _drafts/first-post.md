@@ -72,136 +72,96 @@ The site went through a lot of iteration on the visual front. Here are some of t
 
 This is what the original website looked like, before work started on it this month
 
-### First attempt with ChatGPT
+### First attempts with ChatGPT
 
-<button onclick="swapStyleSheets('/assets/css/old_CSS/v2.css')">ChatGPT attempt</button>
+<button onclick="swapStyleSheets('/assets/css/old_CSS/v2.css')">First try</button>
 <button onclick="resetDefaultStyles()">Back to Default</button>
 
-This is my first attempt with ChatGPT. Definitely worse than the original. The prompt was "create the css for a personal website hosting game design experiments. It should be creative and quirky." It's barely readable, and boring to look at. Try mousing over the nav bar links at the top, it's the only color on the page.
-
-### Prioritize Readability
+Can you even read this? Definitely worse than the original. Try mousing over the nav bar links at the top, it's the only color on the page.
 
 <button onclick="swapStyleSheets('/assets/css/old_CSS/v3.css')">It's Readable Now</button>
 <button onclick="resetDefaultStyles()">Back to Default</button>
 
-This time I told ChatGPT I wanted it to be "eye catching, creative, with a little whimsy", and I was sure to specify "Prioritize readability". Not much different than the previous try, but at least you can read it.
+Not too different than the previous try. Still boring, but at least you can read it. Now the nav bar links pulse a little when you mouse over them.
 
-Again, mouse over the links in the nav bar at the top: now they have a little pulsing animation. Miles better than the previous attempt, but still very bland.
+At this point I tried getting ChatGPT to make it more colorful, but it kept giving me variations of the previous two attempts. Time for a new approach.
 
-At this point I told ChatGPT to "make it more colorful", and it gave me almost the exact same output as the last version; the only difference being the background was now a slightly different shade of white. This tactic wasn't working, so next I tried something slightly different.
+### Maybe some color?
 
-### Another try
-
-It seemed like ChatGPT was getting stuck on its previous suggestions, so I started a new chat. I was sure I wanted something different, but didn't have a clear vision of what that was. So I found a list of [aesthetics](https://aesthetics.fandom.com/wiki/List_of_Aesthetics) used a random number generator to choose one (Joyride), and fed that to ChatGPT, along with a little more context. "Create the CSS for a personal blog discussing game design and personal projects, using the joyride aesthetic. Prioritize readability."
+I want something colorful, let's see if ChatGPT will oblige.
 
 <button onclick="swapStyleSheets('/assets/css/old_CSS/v4.css')">Joyride #1</button>
 <button onclick="resetDefaultStyles()">Back to Default</button>
 
-(Scroll to the top to see the real difference)
-
 Not exactly what I was going for, but at least there's *some* color. The margins need to be fixed.
-
-### "Make it more fun"
 
 <button onclick="swapStyleSheets('/assets/css/old_CSS/v6.css')">More Fun?</button>
 <button onclick="resetDefaultStyles()">Back to Default</button>
 
-(Again, scroll to the top to see the difference)
-
-Basically the same in a different color and illegible. The margins still need to be fixed.
-
-After this attempt, ChatGPT kept trying to output too much css that kept getting cut off. I tried telling it to continue but it would always try to start from the top and get cut off. Time for a new chat.
-
-### Reset #3
-
-This time I tried inputting the previous CSS, and told ChatGPT to keep it colorful, but make it sleeker and more modern
+Basically the same in a different color and illegible. The margins are still a problem.
 
 <button onclick="swapStyleSheets('/assets/css/old_CSS/v7.css')">A little better</button>
 <button onclick="resetDefaultStyles()">Back to Default</button>
 
-(Again, scroll to the top)
+At least there's some color, and it's readable again; The margins still need work, the heading is not prominent enough, and the nav bar's not great either.
 
-Now there's some color and it's readable again, but the margins still need work, the heading is not prominent enough, and the nav bar's not great either.
+### Experiments
 
-### Yet another reset
-
-I tried reseting the chat again, incorperating everything I had learned thus far. "Make it colorful and creative. Prioritize legibility."
+I know I want colorful but, don't have a clear vision beyond that. ChatGPT experiments!
 
 <button onclick="swapStyleSheets('/assets/css/old_CSS/v8.css')">Colorful...?</button>
 <button onclick="resetDefaultStyles()">Back to Default</button>
 
-There are colors, but it looks incredibly bland. And the nav bar isn't distinct enough from the rest of the page
+Okay, there are colors. Not the right colors, but something at least. It still manages to look pretty bland.
 
-### Grunge?
-
-I tried going in a completely different direction: "Make it grunge."
-
-<button onclick="swapStyleSheets('/assets/css/old_CSS/v9.css')">Maybe grunge</button>
+<button onclick="swapStyleSheets('/assets/css/old_CSS/v9.css')">Grunge?</button>
 <button onclick="resetDefaultStyles()">Back to Default</button>
 
-Well that's different. I still don't like the color combination, but at least it looks interesting now. Side margins and nav bar still need work.
+Well that's different. Margins still need work. Let's try something else.
 
-### Ruins
-
-Next I tried "the colors of ruins overrrun with plant life".
-
-<button onclick="swapStyleSheets('/assets/css/old_CSS/v10.css')">Ruins</button>
+<button onclick="swapStyleSheets('/assets/css/old_CSS/v10.css')">Overgrown ruins?</button>
 <button onclick="resetDefaultStyles()">Back to Default</button>
 
-Decidedly worse that the previous version. It has all the same issues, plus the colors blend together too much, making some of the headings almost disappear.
+Nope.
 
-### Let's add pixies to the mix
-
-"Evoke a pixie clan living amongst overgrown ruins."
-
-<button onclick="swapStyleSheets('/assets/css/old_CSS/v11.css')">Pixies</button>
+<button onclick="swapStyleSheets('/assets/css/old_CSS/v11.css')">Pixies?</button>
 <button onclick="resetDefaultStyles()">Back to Default</button>
 
-A tiny bit better than "ruins", but not much.
+Still too faded to read the headings clearly.
 
-### Back to legible
+### Colorful AND Legible
 
-<button onclick="swapStyleSheets('/assets/css/old_CSS/v12.css')">Back to boring</button>
+<button onclick="swapStyleSheets('/assets/css/old_CSS/v12.css')">Legible</button>
 <button onclick="resetDefaultStyles()">Back to Default</button>
 
 I guess removing the color *does* make it more legible. Can't I have both?
 
-### Joyride returns
-
-<button onclick="swapStyleSheets('/assets/css/old_CSS/v13.css')">Joyride take 2</button>
+<button onclick="swapStyleSheets('/assets/css/old_CSS/v13.css')">Colorful</button>
 <button onclick="resetDefaultStyles()">Back to Default</button>
 
 The horrible font is back. At least we have properly contrasting colors again.
 
-### Joyride but legible
-
-<button onclick="swapStyleSheets('/assets/css/old_CSS/v14.css')">Legible Joyride</button>
+<button onclick="swapStyleSheets('/assets/css/old_CSS/v14.css')">Both?</button>
 <button onclick="resetDefaultStyles()">Back to Default</button>
 
 Now we're getting somewhere. Still needs some tweaking, but much better.
 
-### Better nav bar
-
-Time to focus on the nav bar
+### Nav Bar Antics
 
 <button onclick="swapStyleSheets('/assets/css/old_CSS/v15.css')">More nav bar</button>
 <button onclick="resetDefaultStyles()">Back to Default</button>
 
-The nav bar is clearly defined now. Ugly, but well defined. Maybe a little too well defined.
-
-### Less prominent nav bar
+Ugly nav bar, but it's well defined. Maybe a little too well.
 
 <button onclick="swapStyleSheets('/assets/css/old_CSS/v16.css')">Less nav bar</button>
 <button onclick="resetDefaultStyles()">Back to Default</button>
 
 Too far in the opposite direction. Check out that funky mouseover underlining though.
 
-### Uh oh
-
 <button onclick="swapStyleSheets('/assets/css/old_CSS/v18.css')">Um...</button>
 <button onclick="resetDefaultStyles()">Back to Default</button>
 
-I think ChatGPT ran out of memory. It's an interesting change, sort of elegant. And I really like this new nav bar.
+I think ChatGPT ran out of memory. It's an interesting change, sort of elegant. The nav bar is excellent, check out that mouse over effect.
 
 ### All together now
 
@@ -210,11 +170,11 @@ Let's try pulling together everything good from the previous versions
 <button onclick="swapStyleSheets('/assets/css/old_CSS/v21.css')">Getting closer</button>
 <button onclick="resetDefaultStyles()">Back to Default</button>
 
-### Finally
+Almost there.
 
-Adjust the spacing, minor color improvements, and make sure it looks right on mobile.
+<button onclick="resetDefaultStyles()">Final version</button>
 
-<button onclick="resetDefaultStyles()">Done</button>
+Spacing adjustments, minor color improvements, and now it looks right on mobile. Depending on when you are reading this, the website styling may have changed more, but this is where I ended the project for this first month.
 
 ## Reflections
 
