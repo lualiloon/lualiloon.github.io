@@ -11,7 +11,7 @@ I've been fascinated with game design for years. I love creating worlds, charact
 
 ### Monthly Projects
 
-Every month, I'll post a new update with a small project I've been working on. These projects could be anything from a quick prototype to a mini-game. My goal is to challenge myself to continually create new things, and share the process with you.
+Every month, I create a brand new project and share it through [my latest post](/2023/05/31/creating-this-website.html). It might be a quick prototype, a mini-game, or something completely different. I want to push myself to continually create new things, and share the process with you.
 
 ### The Crypt
 
@@ -22,16 +22,6 @@ In addition to my monthly projects, I'll also be digging up my old projects and 
 Game design is all about experimentation, iteration, and learning. My hope is that this website can be a place for us to learn and grow together, as we explore interactive experiences and ignite imagination.
 
 Thanks for stopping by, I hope you enjoy your time here!
-
-### Posts
-
-<ul>
-{% for post in site.posts %}
-<li>
-<a href="{{ post.url }}">{{ post.title }}</a>
-</li>
-{% endfor %}
-</ul>
 ___
 
 ## About this website

@@ -2,5 +2,8 @@
   link: /
 #- name: About
 #  link: /about.html
+- name: Posts
+#  link: /posts.html
+  link: /2023/05/31/creating-this-website.html
 - name: The Crypt
   link: /crypt.html

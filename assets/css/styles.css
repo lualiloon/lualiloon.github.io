@@ -168,3 +168,7 @@ header {
     padding: 0 20px;
     max-width: 1000px;
 }
+
+ul#posts {
+    list-style: none;
+}
