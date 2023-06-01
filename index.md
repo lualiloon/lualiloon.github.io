@@ -19,14 +19,6 @@ In addition to my monthly projects, I'll also be digging up my old projects and 
 
 ### Let's Explore
 
-Game design is all about experimentation, iteration, and learning. My hope is that this website can be a place for us to learn and grow together, as we explore interactive experiences and ignite imagination.
+Game design is all about experimentation, iteration, and learning. My hope is that this can be a place for us to learn and grow together, as we explore interactive experiences and ignite imagination.
 
 Thanks for stopping by, I hope you enjoy your time here!
-___
-
-## About this website
-
-Built using [jekyll](https://jekyllrb.com/)
-
-Content and styling created in collaboration with [ChatGPT](https://chat.openai.com/)
-

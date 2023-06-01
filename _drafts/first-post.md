@@ -1,11 +1,5 @@
 ---
 layout: first-post
-styles1: "/assets/css/styles.css"
-styles2: "/assets/css/alternative-styles.css"
-styles3: "/assets/css/ai-colors.css"
-styles4: "/assets/css/ai-colors-2.css"
-styles5: "/assets/css/ai-styles.css"
-swap1: "swapStyleSheets('/assets/css/styles.css')"
 ---
 
 <script>

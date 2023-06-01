@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-05-31T18:00:11-04:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Creating This Website</title><link href="http://localhost:4000/2023/05/31/creating-this-website.html" rel="alternate" type="text/html" title="Creating This Website" /><published>2023-05-31T00:00:00-04:00</published><updated>2023-05-31T00:00:00-04:00</updated><id>http://localhost:4000/2023/05/31/creating-this-website</id><content type="html" xml:base="http://localhost:4000/2023/05/31/creating-this-website.html"><![CDATA[<script>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-06-01T14:53:24-04:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Creating This Website</title><link href="http://localhost:4000/2023/05/31/creating-this-website.html" rel="alternate" type="text/html" title="Creating This Website" /><published>2023-05-31T00:00:00-04:00</published><updated>2023-05-31T00:00:00-04:00</updated><id>http://localhost:4000/2023/05/31/creating-this-website</id><content type="html" xml:base="http://localhost:4000/2023/05/31/creating-this-website.html"><![CDATA[<script>
 function removeStyleSheet(sheet) {
   sheet.ownerNode.parentNode.removeChild(sheet.ownerNode);
 }
@@ -31,23 +31,11 @@ function resetDefaultStyles() {
 
 <p><strong>May 31, 2023</strong></p>
 
-<h2 id="project-1-make-a-website">Project #1: Make a website</h2>
+<h1 id="project-1-make-a-website">Project #1: Make a Website</h1>
 
-<p>Welcome to my monthly post! Each month I share a small project I’ve been working on, along with a blog post diving into the process behind its creation.</p>
+<p>For my very first monthly poject, I made this website. TADA!</p>
 
-<p>For this first project, I decided to create the website you are currently reading. I needed a place to host all the projects that will come out of this monthly adventure.</p>
-
-<h3 id="about-this-website">About This Website</h3>
-
-<p>I created the website itself a few months back. It was meant to host all my old experiments and abandoned projects, but I got distracted by shiny new ideas and work stopped on the site. There wasn’t much here at that point, just some basic styling and a few sentences on an “About” page.</p>
-
-<p>This month I picked it back up, dusted it off, and gave it a new purpose for this monthly undertaking. I refamiliarized myself with the existing site, then restructured it for its new purpose. The site’s original intent is still here, in <a href="/crypt.html">its own section</a>. I added functionality for the new site, updated  the layout, and redesigned the visual elements.</p>
-
-<h3 id="the-tech">The Tech</h3>
-
-<p>This website is built with <a href="https://jekyllrb.com/">Jekyll</a>. This is my first time using it; I needed a simple, flexible tool to create a basic website, while keeping the code clean and readable. Jekyll does everything I need, and my experince with it so far has been fabulous.</p>
-
-<p>The visual elements are straight CSS, plus some <a href="https://purecss.io/">Pure.css</a> to make it more mobile-friendly. I also used <a href="https://chat.openai.com/">ChatGPT</a> to help  with the styling. It was great at giving me some styles as a starting point, as well as a general collaberative partner, giving suggestions and fixing issues.</p>
+<p>It runs on <a href="https://jekyllrb.com/">Jekyll</a>, the layout is in <a href="https://purecss.io/">Pure.css</a>, and <a href="https://chat.openai.com/">ChatGPT</a> made everything better.</p>
 
 <h2 id="fun-with-css">Fun with CSS</h2>
 
@@ -60,7 +48,7 @@ function resetDefaultStyles() {
 <p><button onclick="swapStyleSheets('/assets/css/old_CSS/original.css')">Original Site</button>
 <button onclick="resetDefaultStyles()">Back to Default</button></p>
 
-<p>This is what the website looked like originally, before I started work  on it this month</p>
+<p>This is what the website looked like originally, before I started work  on it this month. There wasn’t much here, it was just an empty landing page few sentences on an “About” page.</p>
 
 <h3 id="first-attempts-with-chatgpt">First attempts with ChatGPT</h3>
 
@@ -73,8 +61,6 @@ function resetDefaultStyles() {
 <button onclick="resetDefaultStyles()">Back to Default</button></p>
 
 <p>Simple, readable, boring. The nav bar links pulse a little when you hover over them.</p>
-
-<p>At this point I tried getting ChatGPT to make it more colorful, but it kept giving me variations of the previous attempts. Time for a new approach.</p>
 
 <h3 id="maybe-some-color">Maybe some color?</h3>
 
@@ -124,7 +110,7 @@ function resetDefaultStyles() {
 <p><button onclick="swapStyleSheets('/assets/css/old_CSS/v12.css')">Legible</button>
 <button onclick="resetDefaultStyles()">Back to Default</button></p>
 
-<p>I guess removing the color <em>does</em> make it more legible. Can’t I have both?</p>
+<p>I guess removing the color <em>does</em> make it more legible.</p>
 
 <p><button onclick="swapStyleSheets('/assets/css/old_CSS/v13.css')">Colorful</button>
 <button onclick="resetDefaultStyles()">Back to Default</button></p>
@@ -146,12 +132,12 @@ function resetDefaultStyles() {
 <p><button onclick="swapStyleSheets('/assets/css/old_CSS/v16.css')">Less nav bar</button>
 <button onclick="resetDefaultStyles()">Back to Default</button></p>
 
-<p>Too far in the opposite direction. Check out the funky nav bar link mouseover underlining.</p>
+<p>Now it has no definition at all. Check out the funky mouseover underlining.</p>
 
 <p><button onclick="swapStyleSheets('/assets/css/old_CSS/v18.css')">Um…</button>
 <button onclick="resetDefaultStyles()">Back to Default</button></p>
 
-<p>I think ChatGPT ran out of memory. It’s an interesting change, sort of elegant. The nav bar is excellent, check out that mouse over effect!</p>
+<p>I think ChatGPT ran out of memory. The nav bar is great though, check out that mouse over effect!</p>
 
 <h3 id="all-together-now">All together now</h3>
 
@@ -164,7 +150,7 @@ function resetDefaultStyles() {
 
 <p><button onclick="resetDefaultStyles()">Final version</button></p>
 
-<p>With some spacing adjustments, minor color improvements, better layout for mobile, it’s finally coming together. Depending on how far into the future you’re reading this, the website styling may have changed quite a bit more. This is where I wrapped up the project for this first month.</p>
+<p>With some spacing adjustments, minor color improvements and a better mobile layout, it’s finally coming together. If you’re reading this very far in the future, the site may look quite different; this is where I wrapped up the project for the first month.</p>
 
 <h2 id="reflections">Reflections</h2>
 
@@ -176,6 +162,4 @@ function resetDefaultStyles() {
 
 <h2 id="future-projects">Future Projects</h2>
 
-<p>I have no idea what I’ll be working on next month. Keeping a list of potential project ideas as they occur will be helpful in the future, but for now you’ll just have to come back next month to find out what’s brewing.</p>
-
-<p>That’s all for now. Stay inspired, and keep chasing the wonders that make life truly extraordinary. Until next time!</p>]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry></feed>
+<p>I have no idea what I’ll be working on next month. Keeping a list of potential project ideas as they occur will be helpful in the future, but for now you’ll just have to come back next month to find out what’s brewing. See you then!</p>]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry></feed>

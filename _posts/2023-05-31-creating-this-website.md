@@ -35,23 +35,11 @@ function resetDefaultStyles() {
 
 **May 31, 2023**
 
-## Project #1: Make a website
+# Project #1: Make a Website
 
-Welcome to my monthly post! Each month I share a small project I've been working on, along with a blog post diving into the process behind its creation.
+For my very first monthly poject, I made this website. TADA!
 
-For this first project, I decided to create the website you are currently reading. I needed a place to host all the projects that will come out of this monthly adventure.
-
-### About This Website
-
-I created the website itself a few months back. It was meant to host all my old experiments and abandoned projects, but I got distracted by shiny new ideas and work stopped on the site. There wasn't much here at that point, just some basic styling and a few sentences on an "About" page.
-
-This month I picked it back up, dusted it off, and gave it a new purpose for this monthly undertaking. I refamiliarized myself with the existing site, then restructured it for its new purpose. The site's original intent is still here, in [its own section](/crypt.html). I added functionality for the new site, updated  the layout, and redesigned the visual elements.
-
-### The Tech
-
-This website is built with [Jekyll](https://jekyllrb.com/). This is my first time using it; I needed a simple, flexible tool to create a basic website, while keeping the code clean and readable. Jekyll does everything I need, and my experince with it so far has been fabulous.
-
-The visual elements are straight CSS, plus some [Pure.css](https://purecss.io/) to make it more mobile-friendly. I also used [ChatGPT](https://chat.openai.com/) to help  with the styling. It was great at giving me some styles as a starting point, as well as a general collaberative partner, giving suggestions and fixing issues.
+It runs on [Jekyll](https://jekyllrb.com/), the layout is in [Pure.css](https://purecss.io/), and [ChatGPT](https://chat.openai.com/) made everything better.
 
 ## Fun with CSS
 
@@ -64,7 +52,7 @@ The site went through a lot of iteration on the visual front. Here are some of t
 <button onclick="swapStyleSheets('/assets/css/old_CSS/original.css')">Original Site</button>
 <button onclick="resetDefaultStyles()">Back to Default</button>
 
-This is what the website looked like originally, before I started work  on it this month
+This is what the website looked like originally, before I started work  on it this month. There wasn't much here, it was just an empty landing page few sentences on an "About" page.
 
 ### First attempts with ChatGPT
 
@@ -77,8 +65,6 @@ Can you even read this? Definitely worse than the original. Try hovering over th
 <button onclick="resetDefaultStyles()">Back to Default</button>
 
 Simple, readable, boring. The nav bar links pulse a little when you hover over them.
-
-At this point I tried getting ChatGPT to make it more colorful, but it kept giving me variations of the previous attempts. Time for a new approach.
 
 ### Maybe some color?
 
@@ -128,7 +114,7 @@ Headings are still too faded to read clearly. Let's keep going.
 <button onclick="swapStyleSheets('/assets/css/old_CSS/v12.css')">Legible</button>
 <button onclick="resetDefaultStyles()">Back to Default</button>
 
-I guess removing the color *does* make it more legible. Can't I have both?
+I guess removing the color *does* make it more legible.
 
 <button onclick="swapStyleSheets('/assets/css/old_CSS/v13.css')">Colorful</button>
 <button onclick="resetDefaultStyles()">Back to Default</button>
@@ -150,12 +136,12 @@ That nav bar isn't pretty, but it's certainly well defined.
 <button onclick="swapStyleSheets('/assets/css/old_CSS/v16.css')">Less nav bar</button>
 <button onclick="resetDefaultStyles()">Back to Default</button>
 
-Too far in the opposite direction. Check out the funky nav bar link mouseover underlining.
+Now it has no definition at all. Check out the funky mouseover underlining.
 
 <button onclick="swapStyleSheets('/assets/css/old_CSS/v18.css')">Um...</button>
 <button onclick="resetDefaultStyles()">Back to Default</button>
 
-I think ChatGPT ran out of memory. It's an interesting change, sort of elegant. The nav bar is excellent, check out that mouse over effect!
+I think ChatGPT ran out of memory. The nav bar is great though, check out that mouse over effect!
 
 ### All together now
 
@@ -168,7 +154,7 @@ Almost there.
 
 <button onclick="resetDefaultStyles()">Final version</button>
 
-With some spacing adjustments, minor color improvements, better layout for mobile, it's finally coming together. Depending on how far into the future you're reading this, the website styling may have changed quite a bit more. This is where I wrapped up the project for this first month.
+With some spacing adjustments, minor color improvements and a better mobile layout, it's finally coming together. If you're reading this very far in the future, the site may look quite different; this is where I wrapped up the project for the first month.
 
 ## Reflections
 
@@ -180,6 +166,4 @@ In the last few days of the month it became clear that project management is goi
 
 ## Future Projects
 
-I have no idea what I'll be working on next month. Keeping a list of potential project ideas as they occur will be helpful in the future, but for now you'll just have to come back next month to find out what's brewing.
-
-That's all for now. Stay inspired, and keep chasing the wonders that make life truly extraordinary. Until next time!
+I have no idea what I'll be working on next month. Keeping a list of potential project ideas as they occur will be helpful in the future, but for now you'll just have to come back next month to find out what's brewing. See you then!

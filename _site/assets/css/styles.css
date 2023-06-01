@@ -16,10 +16,21 @@ h1 {
     /* font-size: 48px; */
     /* font-size: 44px; */
     /* font-size: 2.75em; */
+    font-size: 2.13em;
+    /* color: #ff5e5b; */
+    /* color: #ff6f61; */
+    /* color: #ff8a65; */
+    color: #ff7d4b;
+    /* color: #ff6e40; */
+    margin-bottom: 24px;
+}
+
+header h1 {
     font-size: 2.5em;
     color: #ff5e5b;
     text-shadow: 2px 2px #ffc09f;
-    margin-bottom: 24px;
+    /* color: #ffc200; */
+    /* text-shadow: 2px 2px #ffccb3; */
 }
 
 h2 {
@@ -28,6 +39,7 @@ h2 {
     /* font-size: 2em; */
     font-size: 1.75em;
     color: #ffa600;
+    /* color: #B8860b; */
     margin-bottom: 20px;
 }
 
