@@ -92,6 +92,12 @@ code {
     color: #333;
 }
 
+figure {
+    max-width: 65%;
+    margin: 24px auto;
+    text-align: center;
+}
+
 /* Set appropriate line-height and margin for images */
 img {
     max-width: 100%;
@@ -100,7 +106,11 @@ img {
     margin: 24px auto;
     line-height: 1.6;
     border: 3px solid #ffa600;
-    box-shadow: 3px 3px #ffc09f;
+}
+
+figcaption {
+    font-size: 0.9em;
+    margin-top: 8px;
 }
 
 /* Style the navigation bar */
@@ -121,14 +131,26 @@ nav ul {
 
 nav li {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 10px;
+}
+
+/* Reduce font size for navigation links on smaller screens */
+@media (max-width: 600px) {
+    nav a {
+        font-size: 16px;
+    }
+    /* Further reduce the margin on smaller screens */
+    nav li {
+        margin-right: 5px;
+    }
 }
 
 nav a {
     color: #fff;    
     text-decoration: none;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1em;
+    /* font-size: 20px; */
 }
 
 nav a:hover {
@@ -179,10 +201,171 @@ header {
 
 .page-content {
     margin: auto;
-    padding: 0 20px;
+    padding: 0 1.5em;
     max-width: 1000px;
 }
 
+
+/* Post list */
 ul#posts {
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+/* Individual Post */
+ul#posts li {
+    background: #fff; /* this could be a light color that matches your theme */
+    border-radius: 5px; /* optional, for card-like design */
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1); /* optional, for card-like design */
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+ul#posts li:hover {
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2); /* this will make the card pop a bit */
+    cursor: pointer;
+}
+
+/* Post title */
+ul#posts li h2 {
+    margin-bottom: 10px;
+}
+
+/* Post excerpt */
+ul#posts li p {
+    margin-bottom: 0;
+}
+
+ul#posts li a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: inherit; /* so the link doesn't change your text colors */
+    text-decoration: none; /* removes the underline */
+}
+
+.read-more {
+    align-self: flex-end;
+    display: inline-block;
+    margin-top: -5px;
+    color: #ff7d4b; /* or any color that fits your design */
+    font-weight: bold;
+}
+
+ul#posts li a:hover .read-more {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 600px) {
+    ul#posts li {
+        padding: 15px;
+    }
+
+    ul#posts li h2 {
+        font-size: 1.5em;
+    }
+
+    .read-more {
+        font-size: 1em;
+    }
+
+
+/* Thumbnail Image - assuming you have a .thumbnail class on your images */
+ul#posts li .thumbnail {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+
+iframe {
+    display: block;
+    width: 100%;
+    height: 500px;
+    border: 3px solid #ffa600;
+    margin: 24px auto;
+    border-radius: 3px;
+}
+
+
+/* Style the post date */
+
+p.post-date {
+    font-family: 'Courier New', monospace; /* Use a different font to distinguish from the rest of the text */
+    font-size: 0.9em; /* Slightly smaller font size */
+    font-weight: bold;
+    /* color: #5b99ff; */
+    /* color: #ff5e5b; */
+    /* color: #ff7d4b; /\* Consistent with other headings *\/ */
+    /* color: #7b716b; */
+    color: #695c57;
+    text-transform: uppercase; /* Make the date uppercase */
+    letter-spacing: 1px; /* Increase letter spacing */
+}
+
+
+/* Style the footer */
+
+footer {
+    background-color: #f0eae3; /* light background color */
+    padding: 20px 20px 45px 20px;
+    color: #ff7d4b; /* bright text color consistent with headings */
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-top: 3px solid #ffa600; /* border top with your main color */
+}
+
+@media (max-width: 600px) {
+    footer {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 2%;
+    }
+
+    footer a {
+        display: block;
+        margin-bottom: 5px;
+    }
+}
+
+footer a {
+    color: #3f3fbf; /* consistent with other links */
+    text-decoration: none;
+    font-size: 16px;
+    /* margin: 0 10px; /\* space between next and previous post links *\/ */
+}
+
+footer a:hover {
+    color: #ff5e5b;
+    text-decoration: underline;
+}
+
+.footer-nav {
+    position: relative;
+    width: 100%;
+}
+
+.footer-nav .prev-post {
+    position: absolute;
+    left: 0;
+}
+
+.footer-nav .next-post {
+    position: absolute;
+    right: 0;
+}
+
+.footer-nav .prev-post::before {
+    content: "← "; /* creates a left arrow */
+}
+
+.footer-nav .next-post::after {
+    content: " →"; /* creates a right arrow */
 }

@@ -5,7 +5,7 @@ title: The Crypt
 
 ## Welcome to the crypt
 
-This is where I bring my old, forgotten projects back to life. 
+This is where I will bring my old, forgotten projects back to life. 
 
 We'll explore my abandoned creative endevors, to see how my skills and ideas have developed over time. You'll find everything here - spaghetti code, terrible art, unfinished design docs, and more. I'm hoping we'll stumble upon some hidden gems, but there's no guarantee. I'll do my best to showcase and document these projects, even (especially) the awkward, embarrassing ones.
 

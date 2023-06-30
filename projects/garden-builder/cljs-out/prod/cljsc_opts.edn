@@ -1,0 +1,1 @@
+{:optimizations :simple, :main garden.core, :output-to "target/public/cljs-out/prod-main.js", :output-dir "target/public/cljs-out/prod", :asset-path "/cljs-out/prod", :aot-cache false}

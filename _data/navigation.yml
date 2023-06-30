@@ -1,7 +1,7 @@
 - name: Home
-  link: /
-#- name: About
-#  link: /about.html
+  link: /2023/06/30/garden-builder.html
+- name: About
+  link: /about.html
 - name: Posts
   link: /posts.html
 #  link: /2023/05/31/creating-this-website.html

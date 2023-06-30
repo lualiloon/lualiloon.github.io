@@ -1,5 +1,6 @@
 ---
 layout: first-post
+title: "Project #1: Make a Website"
 ---
 
 <script>
@@ -37,7 +38,7 @@ function resetDefaultStyles() {
 
 # Project #1: Make a Website
 
-For my very first monthly poject, I made this website. TADA!
+For my very first monthly project, I made this website. TADA!
 
 It runs on [Jekyll](https://jekyllrb.com/), the layout is in [Pure.css](https://purecss.io/), and [ChatGPT](https://chat.openai.com/) made everything better.
 
@@ -167,3 +168,5 @@ In the last few days of the month it became clear that project management is goi
 ## Future Projects
 
 I have no idea what I'll be working on next month. Keeping a list of potential project ideas as they occur will be helpful in the future, but for now you'll just have to come back next month to find out what's brewing. See you then!
+
+{% include post-footer.html %}
