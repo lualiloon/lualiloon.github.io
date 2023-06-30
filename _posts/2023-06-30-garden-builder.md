@@ -83,7 +83,7 @@ I like where this is going. Let's limit the scope and just stick to herbs for no
 
 ## Time to implement the thing
 
-To build the project I used [ClojureScript](https://clojurescript.org/) and (PixiJS)[https://pixijs.com/]. I wanted to get the basic plant placement working first, before dealing with rules on overlapping and grid areas. The basics took longer than I expected, and in the end I didn't have time to implement anything beyond simple plant placement. 
+To build the project I used [ClojureScript](https://clojurescript.org/) and [PixiJS](https://pixijs.com/). I wanted to get the basic plant placement working first, before dealing with rules on overlapping and grid areas. The basics took longer than I expected, and in the end I didn't have time to implement anything beyond simple plant placement. 
 
 ## Reflections
 

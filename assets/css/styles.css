@@ -272,7 +272,7 @@ ul#posts li a:hover .read-more {
     .read-more {
         font-size: 1em;
     }
-
+}
 
 /* Thumbnail Image - assuming you have a .thumbnail class on your images */
 ul#posts li .thumbnail {
