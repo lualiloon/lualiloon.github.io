@@ -293,6 +293,20 @@ iframe {
 }
 
 
+code {
+    background-color: #f2f2f2;
+    padding: 2px 5px;
+    border-radius: 3px;
+    color: #333;
+    max-width: 95%; /* adjust this value to what suits you */
+    display: block; /* to make max-width work as expected */
+    overflow-x: auto; /* to allow scrolling if the code exceeds max-width */
+    white-space: pre-wrap; /* to wrap the content to the next line */
+    border: 1px solid #999; /* Add a border around the code block */
+    font-family: 'Courier New', monospace; /* Change the font of the code block */
+}
+
+
 /* Style the post date */
 
 p.post-date {
@@ -333,6 +347,12 @@ footer {
         display: block;
         margin-bottom: 5px;
     }
+
+    .footer-nav .prev-post, .footer-nav .next-post {
+        position: static; /* Override the absolute positioning on smaller screens */
+        display: block;   /* Make them stack vertically */
+        text-align: center; /* Center the text */
+    }
 }
 
 footer a {
@@ -346,6 +366,7 @@ footer a:hover {
     color: #ff5e5b;
     text-decoration: underline;
 }
+
 
 .footer-nav {
     position: relative;
