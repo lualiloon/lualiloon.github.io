@@ -1,0 +1,15 @@
+/* style */
+body {
+    color: #5479AE;
+    font-family: 'Verdana', sans-serif;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+#closet-sorter>button {
+    margin-right: 1em;
+}
