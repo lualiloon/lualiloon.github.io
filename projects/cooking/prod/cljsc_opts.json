@@ -1,0 +1,1 @@
+{"main":"cooking.core","optimizations":"simple","output-to":"target\/prod\/prod.js","output-dir":"target\/prod","auto-bundle":"webpack","asset-path":null,"aot-cache":false}
