@@ -4,7 +4,7 @@ title: "I'm Making a Game"
 excerpt_separator: <!--more-->
 ---
 
-A fully-realized, somewhat polished, releasable game, start to finish.
+It's time to make a game. A fully-realized, somewhat polished, releasable game, start to finish.
 
 I've gone down this path before. In the past, I have always started with a prototype to test the concept. And every time, once I finish the prototype, I run into the "now what?" problem, losing momentum and getting stuck. I'm not going to let that happen this time.
 
@@ -15,7 +15,7 @@ So this past month, I've been putting together that design document. But I don't
 So instead, I'm going to share all the tools and techniques I plan to use to make this really happen. I have included both tools for work and tools for general life management. To be honest, most of these are used for both. I've found that if my life is a mess, creative work is almost impossible.
 
 ## GTD (Getting Things Done)
-I do not use the entire GTD system, but I use many of the principles. My memory isn't great, and I get easily overwhelmed with tasks and projects. Two of the key components of GTD are writing *everything* down, and breaking up tasks into small, truly actionable steps. These have really made a difference in my ability to function both in creative work and in life.
+I do not use the entire [Getting Things Done](https://en.wikipedia.org/wiki/Getting_Things_Done) system, but I use many of the principles. My memory isn't great, and I get easily overwhelmed with tasks and projects. Two of the key components of GTD are writing *everything* down, and breaking up tasks into small, truly actionable steps. These have really made a difference in my ability to function both in creative work and in life.
 
 In particular, the way that tasks are broken down in this system has been revolutionary for me. The idea of an *actionable* step has changed how I think about tasks in all aspects of my life. The basic idea is to figure out *how* to do a task before writing it down. Instead of writing down the general task you write down the first step of the *how*. This has really helped me: figuring out how to get something done can be really draining for me, and spending that energy when writing down the task instead of when trying to do the task has made a huge difference. (Also, if figuring out *how* is too difficult even at task creation, the first task is actually "search the internet for how to do x" or "text a friend for advice on x". So no matter what, there's always a way forward).
 
@@ -31,7 +31,7 @@ There are drawbacks to a physical notebook. It's not searchable (although the in
 In reality, I'm using a hybrid system with both my Bullet Journal and my phone. This helps mitigate the issues with each. Large, aggregate lists end up in my phone (like my "to read" list), as well as things that are generally copied from somewhere else (like recipes). A lot of other things end up on my phone too, just because I didn't have my Bullet Journal with me at the time. The Bullet Journal would be even more useful if I could find a way to make sure I *always* have it with me, but this hybrid system is working for now.
 
 ## Agile Development
-[Agile](https://en.wikipedia.org/wiki/Agile_software_development) development is excellent for project planning, prioritization, and follow through--all things I struggle with. It's also an additional system that needs to be managed and tracked, on top of the main project. This extra management layer has made it difficult for me to use consistently, but the structure it provides is so helpful I keep coming back to it. For this game I'm making, I think agile will be well worth the effort of using it.
+[Agile development](https://en.wikipedia.org/wiki/Agile_software_development) is excellent for project planning, prioritization, and follow through--all things I struggle with. It's also an additional system that needs to be managed and tracked, on top of the main project. This extra management layer has made it difficult for me to use consistently, but the structure it provides is so helpful I keep coming back to it. For this game I'm making, I think agile will be well worth the effort of using it.
 
 One of the big issues has been finding a tool for managing agile that really works for me. I work best when my tasks are organized as a larger parent task with smaller subtasks connected to it, but the subtasks are listed and completable as their own individual tasks. I also need the tool to be easy to use, and have a visually clear layout that can be sorted and arranged as needed. Finding a tool that does all this has been a challenge. 
 
