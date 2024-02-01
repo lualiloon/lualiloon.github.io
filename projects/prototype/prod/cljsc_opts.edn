@@ -1,0 +1,1 @@
+{:main homestead.core, :optimizations :simple, :output-to "resources/public/prod/prod.js", :output-dir "resources/public/prod", :auto-bundle :webpack, :asset-path "/prod", :aot-cache false}
