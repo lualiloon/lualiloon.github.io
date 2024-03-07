@@ -79,9 +79,13 @@ blockquote {
     background-color: #f8e4d6;
     border-left: 5px solid #ffa600;
     margin: 24px 0;
-    padding: 24px;
+    padding: 10px 24px;
     font-size: 18px;
     line-height: 1.6;
+}
+
+blockquote h2 {
+    margin-top: 0.5em;
 }
 
 /* Use subtle background colors for code snippets */
